@@ -1,15 +1,26 @@
-.heading ul{
+/* .heading ul{
     margin-left: 20px;
     display: flex;
     gap: 10%;
     list-style: none;
     color: white;
 }
-.Heading{
-    background-image: url(house.avif);
+/* .heading{
+    bac
+    background-size: cover;
+    background-repeat: no-repeat;
+/* } */
+.navbar{
+    display: flex;
+    gap: 9%;
+    padding-left: 3%;
+}
+.heading{
+    background-image: url(java.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 body{
     background-color: lightgrey;
 }
@@ -44,9 +55,10 @@ body{
     display: flex;
 }
 #photo{
-    width: 200px;
-    height: 250px;
-    position: relative;
+    width: 400px;
+    height: 300px;
+    /* position: relative; */
+    /* padding-right: 40%; */
 }
 #see{
     margin-left: 45%;
@@ -57,22 +69,15 @@ body{
     background-color: blue;
     color: white;
 }
-.C{
-    background-color: aliceblue;
-}
-.B{
-    background-color: aliceblue;
-}
-
 .head2{
     text-align: center;
 }
 .facility{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* gap: 10%; */
-    column-gap: 10px;
-    padding-left: 15%;
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 15%;
+    /* column-gap: 10px; */
+    padding-left: 9%;
      
 }
 #image{
@@ -83,8 +88,8 @@ body{
 .act{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 6%;
-    padding-left: 15%;
+    gap: 15%;
+    padding-left: 9%;
 }
 .head2{
     text-align: center;
@@ -198,11 +203,13 @@ body{
     padding-top: 6%;
     display: flex;
     gap: 15%;
+    padding: 10px;
 }
 #bold{
     font-weight: bold;
 }
-@media all and (max-width: 500px) {
+
+/* @media all and (max-width: 500px) {
     .heading ul{
         margin-left: 17px;
         gap:7%
@@ -298,82 +305,4 @@ body{
     text-align: center;
     padding-top: 3%;
     /* background-color: blue; */
-}
-.meals{
-    /* text-align: center; */
-    display: flex;
-    padding-left: 45%;
-    gap: 5%;
-}
-#lunch{
-    color: deeppink;
-}
-.salads{
-    display: grid;
-    /* gap: 6%; */
-    column-gap: 60px;
-    row-gap: 60px;
-    grid-template-columns: repeat(3,1fr);
-    background-color: aliceblue;
-
-}
-.salad{
-    display: grid;
-    column-gap: 30px;
-    row-gap: 30px;
-    grid-template-columns: repeat(3,1fr);
-    padding-top: 2%;
-    background-color: aliceblue;
-}
-#dish{
-    position: relative;
-    width: 270px;
-    height: 240px;
-
-}
-.food{
-    border-radius: 8px;
-    gap: 3%;
-}
-.head4{
-    text-align: center;
-    padding-top: 3%;
-}
-.humans{
-    display: flex;
-    padding-left: 11%;
-    gap: 3%;
-
-}
-#headshot{
-    width: 200px;
-    height: 150px;
-    position: relative;
-}
-.icon{
-    padding-left: 30%;
-    padding-top: 3%;
-    gap: 3%; 
-}
-.head7{
-    text-align: center;
-}
-.head6{
-    display: flex;
-    padding-left: 4%;
-}
-#person{
-    background-color: whitesmoke;
-}
-.head8{
-    text-align: center;
-}
-.detail{
-    border-radius: 10px;
-}
-.table{
-    padding-top: 4%;
-    display: flex
-    gap: 10%;
-}
-}
+/* } */
